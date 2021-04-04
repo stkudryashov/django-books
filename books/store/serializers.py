@@ -6,4 +6,4 @@ from store.models import Book
 class BookSerializer(ModelSerializer):
     class Meta:
         model = Book
-        fields = ('name', 'price')
+        fields = ('name', 'author', 'price')
